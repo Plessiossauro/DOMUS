@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prototipo login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Capriola&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      .capriola-regular {
+        font-family: "Capriola", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      * {
+        font-family: "Capriola", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="login" style="text-align: center">
+      <img src="./img/icone-casas.jpg" width="100" height="80" />
+      <br />
+      <br />
+      <h1>Sistema Domus</h1>
+      <h3>Versão 0.1.0</h3>
+      <br />
+      <form action="./home.html" method="dialog">
+        <label for="login_input">Usuário:</label>
+        <input
+          type="text"
+          id="login_input"
+          placeholder="Usuário"
+          size="100"
+          maxlength="100"
+        />
+        <br />
+        <label for="senha_input">Senha:</label>
+        <input
+          type="password"
+          id="senha_input"
+          placeholder="Senha"
+          size="100"
+          maxlength="100"
+        />
+        <br />
+        <br />
+        <a href="./home.html">
+          <button id="btnEntrar" type="button">Entrar</button>
+        </a>
+        <button id="btnLimpar" type="reset">Limpar</button>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="./SenhaAlterar.html">
+          <button id="btnAlterarSenha" type="button">Alterar Senha</button>
+        </a>
+      </form>
+    </div>
+  </body>
+</html>

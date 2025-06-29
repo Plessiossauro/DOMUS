@@ -1,48 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prototipo login</title>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Protótipo index</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Capriola&display=swap"
+      rel="stylesheet"
+    />
+
     <style>
-        div { text-align: center;}
+      .capriola-regular {
+        font-family: "Capriola", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      * {
+        font-family: "Capriola", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
     </style>
-</head>
-<body>
-    <div>
-        <a href="./index.html">
-            <button type="button">
-            <img src="../img/icone-casas.jpg" width="150" height="100"/>
-            </button>
-        </a>
-        <h2>
-            Login
-        </h2>
-        <form>
-            <label for="login">
-                <br/>
-                login
-                <br/>
-            </label>
-                <input type="text" id="login"/>
-             <br/>
-            <label for="senha">
-             <br/>
-            senha
-                 <br/>
-            </label>
-                <input type="password" id="senha"/>    
-            <br/>
-            <br/>
-            <input type="submit" value="submit"/>
-            <br/>
-        </form>
-        
-        <a href="./recuperarSenha.html">
-            <br/>
-             &#128187; Renovar Senha
-            <br/>
-        </a>
-     </div>
-</body>
+  </head>
+  <body style="text-align: center">
+    <div id="index_root">
+      <img src="./img/icone-casas.jpg" width="300" height="200" />
+      <h1>Sistema Domus</h1>
+      <h3>Versão 0.1.0</h3>
+      <br />
+      <a href="./login.html">
+        <button id="btnEntrar">Entrar</button>
+      </a>
+      <p>
+        <em style="font-size: x-large">
+          O melhor Sistema para corretores de imóveis de todos os tempos!
+          <br />- Por quê? <br />- Porque ele presta contas claramente,
+          identificando todas as etapas da venda ou aluguel e o percentual da
+          comissão do corretor, e da corretora, se for o caso.
+        </em>
+      </p>
+    </div>
+  </body>
 </html>
