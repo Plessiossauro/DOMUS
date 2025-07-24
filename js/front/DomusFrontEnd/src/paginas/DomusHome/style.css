@@ -1,0 +1,35 @@
+.rootHome {
+  display: flex;
+  flex-direction: column;
+}
+.div_cabecalho {
+  display: flex;
+  justify-content: space-between;
+  background-color: aquamarine;
+  height: 10%;
+}
+.spanMSG {
+  background-color: cornsilk;
+}
+.div_central {
+  display: flex;
+  justify-content: flex-start;
+  background-color: cadetblue;
+  height: 90%;
+}
+.div_rodape {
+  display: flex;
+  justify-content: flex-start;
+  background-color: burlywood;
+  height: 10%;
+}
+.capriola-regular {
+  font-family: "Capriola", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+* {
+  font-family: "Capriola", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
