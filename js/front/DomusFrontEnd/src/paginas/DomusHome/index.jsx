@@ -7,10 +7,10 @@ import { faSignOut } from "@fortawesome/free-solid-svg-icons";
 function DomusHome() {
   return (
     <>
-      <div id="div_cabecalho" className="div_cabeçalho">
+      <div id="div_cabecalho" className="div_cabecalho">
         <div id="logo_cabecalho">
           <Link to={"/home"}>
-            <img src={iconeCasa} width="300" height="200" />
+            <img src={iconeCasa} width="100" height="80" />
           </Link>
         </div>
         <div id="div_funcionalidade">
